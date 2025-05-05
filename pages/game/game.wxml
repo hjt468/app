@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="timer">剩余时间：{{timeLeft}}s</view>
+  <view class="score">得分：{{score}}</view>
+  
+  <view class="word-card">
+    <text class="word">{{currentWord}}</text>
+  </view>
+
+  <view class="control-area">
+    <view class="left-area" bindtap="handleCorrect">
+      <text>猜对了</text>
+    </view>
+    <view class="right-area" bindtap="handleSkip">
+      <text>跳过</text>
+    </view>
+  </view>
+</view> 

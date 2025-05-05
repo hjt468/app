@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="rules-card">
+    <view class="title">游戏规则</view>
+    <view class="rule-item">
+      <text class="rule-title">1. 游戏玩法</text>
+      <text class="rule-content">一名玩家手持设备，屏幕上显示需要猜的词语，但持有者看不到。其他玩家通过语言或肢体动作描述该词语，持有者根据描述进行猜测。</text>
+    </view>
+    <view class="rule-item">
+      <text class="rule-title">2. 操作方式</text>
+      <text class="rule-content">猜对后，点击左半边区域表示正确；若放弃，则点击右半边区域表示跳过。</text>
+    </view>
+    <view class="rule-item">
+      <text class="rule-title">3. 计分规则</text>
+      <text class="rule-content">每轮游戏时间为60秒，规定时间内猜对的词语数量越多，得分越高。</text>
+    </view>
+  </view>
+  <button class="btn-primary" bindtap="backToHome">返回首页</button>
+</view> 

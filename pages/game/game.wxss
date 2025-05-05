@@ -1,0 +1,53 @@
+.timer {
+  font-size: 36rpx;
+  color: #4A90E2;
+  margin-bottom: 20rpx;
+}
+
+.score {
+  font-size: 32rpx;
+  color: #F5A623;
+  margin-bottom: 40rpx;
+}
+
+.word-card {
+  background: white;
+  padding: 40rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+  margin: 40rpx 0;
+  width: 80%;
+  text-align: center;
+}
+
+.word {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.control-area {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200rpx;
+  display: flex;
+}
+
+.left-area, .right-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36rpx;
+  color: white;
+}
+
+.left-area {
+  background-color: #4CAF50;
+}
+
+.right-area {
+  background-color: #F44336;
+} 

@@ -1,0 +1,39 @@
+.rules-card {
+  background: white;
+  padding: 40rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+  margin-bottom: 60rpx;
+  width: 90%;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #4A90E2;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+
+.rule-item {
+  margin-bottom: 30rpx;
+}
+
+.rule-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+  display: block;
+}
+
+.rule-content {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+  display: block;
+}
+
+button {
+  width: 80% !important;
+} 

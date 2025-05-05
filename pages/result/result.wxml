@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="result-card">
+    <view class="title">游戏结束</view>
+    <view class="score">得分：{{score}}</view>
+    <view class="high-score">历史最高分：{{highScore}}</view>
+  </view>
+
+  <view class="button-group">
+    <button class="btn-primary" bindtap="playAgain">再来一局</button>
+    <button class="btn-secondary" bindtap="backToHome">返回首页</button>
+  </view>
+</view> 
