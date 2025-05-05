@@ -1,17 +1,33 @@
 <view class="container">
-  <view class="timer">剩余时间：{{timeLeft}}s</view>
-  <view class="score">得分：{{score}}</view>
+  <view class="exit-btn" bindtap="exitGame">
+    <text>退出游戏</text>
+  </view>
   
-  <view class="word-card">
-    <text class="word">{{currentWord}}</text>
+  <view class="game-content">
+    <view class="word-card">
+      <text class="word">{{currentWord}}</text>
+    </view>
+    
+    <view class="game-info">
+      <view class="timer">
+        <text class="timer-label">剩余时间</text>
+        <text class="timer-value">{{timeLeft}}s</text>
+      </view>
+      <view class="score">
+        <text class="score-label">得分</text>
+        <text class="score-value">{{score}}</text>
+      </view>
+    </view>
   </view>
 
-  <view class="control-area">
-    <view class="left-area" bindtap="handleCorrect">
-      <text>猜对了</text>
-    </view>
-    <view class="right-area" bindtap="handleSkip">
-      <text>跳过</text>
+  <view class="game-footer">
+    <view class="control-area">
+      <view class="left-area" bindtap="handleCorrect">
+        <text class="control-text">猜对了</text>
+      </view>
+      <view class="right-area" bindtap="handleSkip">
+        <text class="control-text">跳过</text>
+      </view>
     </view>
   </view>
 </view> 

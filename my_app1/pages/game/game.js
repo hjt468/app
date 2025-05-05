@@ -69,5 +69,17 @@ Page({
 
   onUnload() {
     clearInterval(this.timer)
+  },
+
+  exitGame() {
+    wx.showModal({
+      title: '确认退出',
+      content: '确定要退出游戏吗？当前进度将不会保存。',
+      success: (res) => {
+        if (res.confirm) {
+          wx.navigateBack()
+        }
+      }
+    })
   }
 }) 
