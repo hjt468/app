@@ -1,7 +1,7 @@
 {
   "appid": "wx035a236a36608786",
   "compileType": "miniprogram",
-  "libVersion": "3.8.3",
+  "libVersion": "2.30.2",
   "packOptions": {
     "ignore": [],
     "include": []
@@ -18,7 +18,18 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "useCompilerPlugins": false,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true
   },
   "condition": {},
   "editorSetting": {
